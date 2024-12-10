@@ -142,7 +142,27 @@ button{
     color: #f0f0f0;
     font-size: 25px;
     padding: 60px 20px 0 20px;
+    
 }
 .contact-links a i{
     padding-right: 10px;
+    
+}
+
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303942;
+    color: #f0f0f0;
+    height: 109.029px;
+    width: 1298.08px;
+    font-size: 19px;
+    gap: 100px;
+}
+footer p{
+    /* padding:0 30px; */
 }
