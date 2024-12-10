@@ -5,20 +5,102 @@
     list-style: none;
     text-decoration: none; 
 }
+body{
+    overflow-x: hidden;
+    font-family: Poppins, sans-serif;
+}
 
 #navbar{
 display: flex;
 justify-content: right;
 align-items: center;
-padding: 15px;
+padding-right: 20px;
 background-color: #be3144;
-font-size: 20px;
-font-family: Poppins, sans-serif;
+font-size: 22px;
+position: fixed;
+width: 100%;
+height: 70.7782px;
+line-height: 30.8px;
+top: 0;
+border-bottom: transparent 2px solid;
 }
 
 #navbar span{
-    padding:15px;
+    padding: 0 20px;
 }
 #navbar span a{
     color: white;
 }
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #313236;
+    height:623.077px;
+    width: 1298.08px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    padding-top: 200px;
+}
+#welcome-section p{
+    font-size: 30px;
+    color: #be3144;
+    font-style: italic;
+   
+}
+
+
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #45567D;
+    height: 1373.9px;
+    width: 1298.08px;
+}
+
+#projects h2{
+font-size: 30px;
+color: white;
+}
+
+.project-tiles{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.project-tile{
+display:flex;
+width: fit-content;
+height: 450px;
+margin: 20px;
+background-color: #303942;
+
+}
+.project-tile img{
+    width: 392px;
+    height: 382px;
+}
+.project-tile p{
+    color: white;
+    font-size: 25px;
+    padding-top: 18px;
+    text-align: center;
+}
+button{
+    background-color: #303942;
+    color: white;
+    border: none;
+    font-size: 25px;
+    padding:10px 20px;
+    
+}
+
+
