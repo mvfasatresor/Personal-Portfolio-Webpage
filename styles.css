@@ -37,7 +37,7 @@ border-bottom: transparent 2px solid;
     flex-direction: column;
     align-items: center;
     background-color: #313236;
-    height:623.077px;
+    height: 560px;
     width: 1298.08px;
     font-weight: bold;
     margin-top: 70px;
@@ -66,14 +66,19 @@ h1{
 }
 
 #projects h2{
-font-size: 30px;
+font-size: 43px;
 color: white;
+padding-top: 100px;
+border-bottom:white 2px solid;
 }
 
 .project-tiles{
     display: flex;
     flex-wrap: wrap;
-    
+    padding: 50px 0;
+}
+.project-tiles div,button{
+    border-radius: 3px;
 }
 
 .project-tile{
@@ -90,7 +95,7 @@ background-color: #303942;
 }
 .project-tile p{
     color: white;
-    font-size: 25px;
+    font-size: 23px;
     padding-top: 18px;
     text-align: center;
 }
@@ -98,7 +103,7 @@ button{
     background-color: #303942;
     color: white;
     border: none;
-    font-size: 25px;
+    font-size: 23px;
     padding:10px 20px;
     
 }
